@@ -16,12 +16,6 @@
     document.onkeyup = function(event) 
     {
         var userGuess = event.key;
-    
-
-        console.log("Correct Answer = " + correctAnswer);
-        console.log("User Guess = " + userGuess);
-        console.log("Guesses Left = " + guessesleft);
-        console.log("Guesses so far = " + guessesSoFar);
 
         //check for valid user guess before comparing guess to answer
         if (userGuess === 'a' || userGuess === 'b' || userGuess === 'c' || userGuess === 'd' || userGuess === 'e' ||
